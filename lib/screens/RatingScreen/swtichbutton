@@ -1,0 +1,9 @@
+ Switch(
+                value: presssedFavorite,
+                onChanged: (value) {
+                  setState(() {
+                    presssedFavorite = true;
+                    Colors.amber;
+                  });
+                },
+              ),
